@@ -13,12 +13,12 @@
   position: absolute;
 }
 .sect2_Shape1 {
-  top: 230px;
-  left: 60px;
+  top: 10px;
+  left: 10px;
 }
 .sect2_Shape2 {
-  top: 130px;
-  right: 100px;
+  top: 70px;
+  right: 5px;
 }
 .sect2_Shape3 {
   top: 200px;
@@ -38,12 +38,12 @@
   right: -40px;
 }
 .sect3_Shape4 {
-  top: 500px;
-  right: 180px;
+  top: 550px;
+  right: 10px;
 }
 .sect4_Shape1 {
-  top: 100px;
-  left: 50px;
+  top: 10px;
+  left: 10px;
 }
 .sect4_Shape2 {
   top: 100px;
@@ -68,16 +68,22 @@
   z-index: -1;
 }
 .sect5_Shape2 {
-  top: 26px;
-  left: 90px;
+  top: -30px;
+  left: 5px;
+}
+.sect5_Shape2 img {
+  width: 70%;
 }
 .sect5_Shape3 {
-  top: -80px;
-  right: 30px;
+  top: -100px;
+  right: -80px;
+}
+.sect5_Shape3 img {
+  width: 70%;
 }
 .sect5_Shape4 {
-  top: 700px;
-  right: 60px;
+  top: 380px;
+  right: 30px;
 }
 .sect6_Shape2 {
   top: -600px;
@@ -86,27 +92,36 @@
   z-index: -1;
 }
 .sect6_Shape1 {
-  top: 50px;
+  top: 220px;
   left: 150px;
 }
 .sect8_Shape1 {
-  top: 100px;
-  left: 100px;
+  top: 15px;
+  left: 10px;
 }
 .sect8_Shape2 {
-  top: 100px;
-  right: 100px;
+  top: 15px;
+  right: 10px;
 }
 .sect8_Shape3 {
-  top: 530px;
+  top: 700px;
+}
+.sect8_Shape3 img{
+  width: 70%;
 }
 .sect8_Shape4 {
-  top: 580px;
-  left: 700px;
+  top: 720px;
+  left: 150px;
+}
+.sect8_Shape4 img {
+  width: 70%;
 }
 .sect8_Shape5 {
-  top: 470px;
-  right: 190px;
+  top: 680px;
+  right: -60px;
+}
+.sect8_Shape5 img {
+  width: 60%;
 }
 .navbar {
   line-height: 70px;
@@ -136,14 +151,14 @@
   line-height: 80px;
   color: #835e3f;
   text-align: left;
-  width: 40%;
+  width: 100%;
 }
 .sect_one_text p {
   font-size: 20px;
   font-family: "Nunito";
   color: #835e3f;
   text-align: left;
-  width: 30%;
+  width: 100%;
   padding: 45px 0 40px 0;
 }
 .ordernow button {
@@ -177,7 +192,7 @@
   color: #835e3f;
   text-align: center;
   margin: 0 auto;
-  width: 60%;
+  width: 100%;
   padding: 0 0 80px 0;
 }
 .cart {
@@ -204,11 +219,11 @@
   font-family: "Poppins", sans-serif;
 }
 .sect3-img img {
-  width: 90%;
+  width: 100%;
   border-radius: 50%;
 }
 .sect3-img {
-  padding: 80px 80px 70px 0;
+  padding: 80px 60px 50px 30px;
 }
 .sect_three {
   background-color: #f8e0bb;
@@ -251,7 +266,7 @@
   z-index: -1;
 }
 .sect_four_text {
-  padding: 0 30px 0 0;
+  padding: 0 0 0 40px;
 }
 .sect_four_text h4 {
   font-size: 75px;
@@ -267,7 +282,7 @@
   margin: 0 0 45px 0;
 }
 .sect4-img {
-  padding: 80px 0 50px 70px;
+  padding: 80px 30px 50px 30px;
 }
 .sect4-img img {
   width: 90%;
@@ -276,6 +291,7 @@
 .sect_five {
   background-color: #f8e0bb;
   padding: 0 0 80px 0;
+  overflow: hidden;
 }
 .sect_five_text h5 {
   font-size: 62px;
@@ -299,6 +315,7 @@
   border-radius: 50%;
   color: white;
   padding: 50px 0 40px 0;
+  margin: 0 auto;
 }
 .radius h3 {
   font-size: 102px;
@@ -375,7 +392,7 @@
   overflow: hidden;
 }
 .sect_seven_text p {
-  width: 80%;
+  width: 100%;
   padding: 130px 0 50px 0;
   font-size: 36px;
   font-family: "Montserrat";
@@ -407,7 +424,7 @@
   font-family: "Nunito";
   color: #835e3f;
   font-weight: 400;
-  width: 57%;
+  width: 100%;
   padding: 20px 0;
   margin: 0 auto;
 }
@@ -482,27 +499,33 @@
   color: #ffffff;
 }
 .sect9_margin1 {
-  margin: 0 0 0 100px;
+  margin: 0;
 }
 .sect9_margin2 {
-  margin: 0 0 0 100px;
+  margin: 0;
 }
 .sect9_margin3 {
-  margin: 0 0 0 100px;
+  margin: 0;
 }
 
 @media (min-width: 576px) {
   .radius {
     width: 100%;
   }
+  .sect9_margin1 {
+    margin: 0 0 0 50px;
+  }
   .sect9_margin2 {
     margin: 0 0 0 0;
+  }
+  .sect9_margin3 {
+    margin: 0 0 0 50px;
   }
   .sect_one_text {
     margin: 0 100px 0 0;
   }
   .sect_one_text h1 {
-    width: 80%;
+    width: 100%;
   }
   .sect_one_text p {
     width: 60%;
@@ -531,73 +554,115 @@
     font-size: 25px;
   }
   .sect2_Shape1 {
-    display: none;
+    top: 10px;
+    left: 10px;
   }
   .sect2_Shape2 {
-    display: none;
+    top: 70px;
+    right: 5px;
   }
   .sect2_Shape3 {
-    display: none;
+    top: 200px;
+    left: -175px;
+    z-index: -1;
   }
   .sect3_Shape1 {
-    display: none;
+    top: -50px;
+    left: -40px;
   }
   .sect3_Shape2 {
-    display: none;
+    top: 0;
+    left: 280px;
   }
   .sect3_Shape3 {
-    display: none;
+    top: -120px;
+    right: -40px;
   }
   .sect3_Shape4 {
-    display: none;
+    top: 480px;
+    right: 10px;
   }
   .sect4_Shape1 {
-    display: none;
+    top: 10px;
+    left: 10px;
   }
   .sect4_Shape2 {
-    display: none;
+    top: 20px;
+    left: 400px;
   }
   .sect4_Shape4 {
-    display: none;
+    top: 150px;
+    right: -50px;
   }
   .sect4_Shape5 {
-    display: none;
+    top: 650px;
+    left: 550px;
   }
   .sect4_Shape3 {
-    display: none;
+    top: 448px;
+    left: -210px;
+    z-index: -1;
   }
   .sect5_Shape1 {
-    display: none;
+    top: 400px;
+    left: -150px;
+    z-index: -1;
   }
   .sect5_Shape2 {
-    display: none;
+    top: -30px;
+    left: 5px;
+  }
+  .sect5_Shape2 img {
+    width: 70%;
   }
   .sect5_Shape3 {
-    display: none;
+    top: -100px;
+    right: -50px;
+  }
+  .sect5_Shape3 img {
+    width: 70%;
   }
   .sect5_Shape4 {
-    display: none;
+    top: 300px;
+    right: 30px;
   }
   .sect6_Shape2 {
-    display: none;
+    top: -600px;
+    left: -94px;
+    right: 10px;
+    z-index: -1;
   }
   .sect6_Shape1 {
-    display: none;
+    top: 220px;
+    left: 150px;
   }
   .sect8_Shape1 {
-    display: none;
+    top: 15px;
+    left: 10px;
   }
   .sect8_Shape2 {
-    display: none;
+    top: 15px;
+    right: 10px;
   }
   .sect8_Shape3 {
-    display: none;
+    top: 600px;
+  }
+  .sect8_Shape3 img{
+    width: 70%;
   }
   .sect8_Shape4 {
-    display: none;
+    top: 600px;
+    left: 300px;
+  }
+  .sect8_Shape4 img {
+    width: 70%;
   }
   .sect8_Shape5 {
-    display: none;
+    top: 600px;
+    right: -60px;
+  }
+  .sect8_Shape5 img {
+    width: 60%;
   }
 }
 @media (min-width: 768px) {
@@ -605,7 +670,7 @@
     width: 100%;
   }
   .sect_one_text h1 {
-    width: 100%;
+    width: 50%;
     font-size: 60px;
   }
   .sect_one_text p {
@@ -618,20 +683,125 @@
   .sec4-text {
     margin: 0 0 0 60px;
   }
+  .sect9_margin1 {
+    margin: 0;
+  }
   .sect9_margin2 {
-    margin: 0 0 0 0;
+    margin: 0;
   }
-  .sect_one_text h1 {
-    width: 50%;
-  }
-  .sect_one_text p {
-    width: 50%;
+  .sect9_margin3 {
+    margin: 0;
   }
   .sect_eight_text h5 {
     font-size: 70px;
   }
   .sect_eight_text p {
     width: 90%;
+  }
+  .sect2_Shape1 {
+    top: 150px;
+    left: 60px;
+  }
+  .sect2_Shape2 {
+    top: 130px;
+    right: 100px;
+  }
+  .sect2_Shape3 {
+    top: 200px;
+    left: -175px;
+    z-index: -1;
+  }
+  .sect3_Shape1 {
+    top: -50px;
+    left: -40px;
+  }
+  .sect3_Shape2 {
+    top: 0;
+    left: 400px;
+  }
+  .sect3_Shape3 {
+    top: -120px;
+    right: -40px;
+  }
+  .sect3_Shape4 {
+    top: 680px;
+    right: 180px;
+  }
+  .sect4_Shape1 {
+    top: 100px;
+    left: 50px;
+  }
+  .sect4_Shape2 {
+    top: 30px;
+    left: 580px;
+  }
+  .sect4_Shape4 {
+    top: 120px;
+    right: -50px;
+  }
+  .sect4_Shape5 {
+    top: 650px;
+    left: 550px;
+  }
+  .sect4_Shape3 {
+    top: 448px;
+    left: -210px;
+    z-index: -1;
+  }
+  .sect5_Shape1 {
+    top: 400px;
+    left: -150px;
+    z-index: -1;
+  }
+  .sect5_Shape2 {
+    top: 26px;
+    left: 90px;
+  }
+  .sect5_Shape3 {
+    top: -80px;
+    right: 30px;
+  }
+  .sect5_Shape4 {
+    top: 700px;
+    right: 60px;
+  }
+  .sect6_Shape2 {
+    top: -600px;
+    left: -94px;
+    right: 10px;
+    z-index: -1;
+  }
+  .sect6_Shape1 {
+    top: 120px;
+    left: 120px;
+  }
+  .sect8_Shape1 {
+    top: 100px;
+    left: 100px;
+  }
+  .sect8_Shape2 {
+    top: 100px;
+    right: 100px;
+  }
+  .sect8_Shape3 {
+    top: 520px;
+  }
+  .sect8_Shape3 img{
+    width: 100%;
+  }
+  .sect8_Shape4 {
+    top: 530px;
+    left: 500px;
+  }
+  .sect8_Shape4 img {
+    width: 100%;
+  }
+  .sect8_Shape5 {
+    top: 520px;
+    right: 10px;
+  }
+  .sect8_Shape5 img {
+    width: 100%;
   }
 }
 @media (min-width: 992px) {
@@ -678,51 +848,110 @@
     font-size: 22px;
     margin: 0 0 0 30px;
   }
+  .sect2_Shape1 {
+    top: 230px;
+    left: 60px;
+  }
+  .sect2_Shape2 {
+    top: 130px;
+    right: 100px;
+  }
+  .sect2_Shape3 {
+    top: 200px;
+    left: -175px;
+    z-index: -1;
+  }
+  .sect3_Shape1 {
+    top: -50px;
+    left: -40px;
+  }
   .sect3_Shape2 {
-    left: 500px;
-    display: block;
+    top: 0px;
+    left: 600px;
+  }
+  .sect3_Shape3 {
+    top: -120px;
+    right: -40px;
+  }
+  .sect3_Shape4 {
+    top: 480px;
+    right: 80px;
+  }
+  .sect4_Shape1 {
+    top: 100px;
+    left: 20px;
   }
   .sect4_Shape2 {
-    top: 80px;
-    left: 700px;
-    display: block;
+    top: 100px;
+    left: 680px;
+  }
+  .sect4_Shape4 {
+    top: 120px;
+    right: -50px;
   }
   .sect4_Shape5 {
-    top: 500px;
-    left: 650px;
-    display: block;
+    top: 580px;
+    left: 550px;
+  }
+  .sect4_Shape3 {
+    top: 448px;
+    left: -210px;
+    z-index: -1;
+  }
+  .sect5_Shape1 {
+    top: 400px;
+    left: -150px;
+    z-index: -1;
+  }
+  .sect5_Shape2 {
+    top: 26px;
+    left: 90px;
+  }
+  .sect5_Shape3 {
+    top: -80px;
+    right: 30px;
   }
   .sect5_Shape4 {
     top: 700px;
     right: 60px;
-    display: block;
-  }
-  .sect6_Shape1 {
-    top: 10px;
-    left: 100px;
-    display: block;
   }
   .sect6_Shape2 {
     top: -600px;
-    left: -150px;
+    left: -94px;
     right: 10px;
     z-index: -1;
-    display: block;
+  }
+  .sect6_Shape1 {
+    top: 50px;
+    left: 150px;
+  }
+  .sect8_Shape1 {
+    top: 100px;
+    left: 100px;
+  }
+  .sect8_Shape2 {
+    top: 100px;
+    right: 100px;
   }
   .sect8_Shape3 {
-    top: 500px;
-    left: 50px;
-    display: block;
+    top: 520px;
+  }
+  .sect8_Shape3 img{
+    width: 100%;
   }
   .sect8_Shape4 {
-    top: 550px;
+    top: 530px;
     left: 500px;
-    display: block;
+  }
+  .sect8_Shape4 img {
+    width: 100%;
   }
   .sect8_Shape5 {
-    top: 470px;
-    right: 80px;
-    display: block;
+    top: 500px;
+    right: 10px;
+  }
+  .sect8_Shape5 img {
+    width: 100%;
   }
 }
 @media (min-width: 1200px) {
@@ -731,6 +960,10 @@
   }
   .sec4-text {
     margin: 0 0 0 0;
+  }
+  .sect_four_text p {
+    font-size: 30px;
+    width: 100%;
   }
   .sect_five_text p {
     width: 70%;
@@ -758,120 +991,106 @@
   .sect2_Shape1 {
     top: 230px;
     left: 60px;
-    display: block;
   }
   .sect2_Shape2 {
     top: 130px;
     right: 100px;
-    display: block;
   }
   .sect2_Shape3 {
     top: 200px;
     left: -175px;
     z-index: -1;
-    display: block;
   }
   .sect3_Shape1 {
     top: -50px;
     left: -40px;
-    display: block;
   }
   .sect3_Shape2 {
     top: 0;
     left: 600px;
-    display: block;
   }
   .sect3_Shape3 {
     top: -120px;
     right: -40px;
-    display: block;
   }
   .sect3_Shape4 {
     top: 620px;
     right: 180px;
-    display: block;
   }
   .sect4_Shape1 {
     top: 100px;
     left: 50px;
-    display: block;
   }
   .sect4_Shape2 {
     top: 100px;
     left: 680px;
-    display: block;
   }
   .sect4_Shape4 {
     top: 120px;
     right: -50px;
-    display: block;
   }
   .sect4_Shape5 {
     top: 650px;
     left: 550px;
-    display: block;
   }
   .sect4_Shape3 {
     top: 448px;
     left: -210px;
     z-index: -1;
-    display: block;
   }
   .sect5_Shape1 {
     top: 400px;
     left: -150px;
     z-index: -1;
-    display: block;
   }
   .sect5_Shape2 {
     top: 26px;
     left: 90px;
-    display: block;
   }
   .sect5_Shape3 {
     top: -80px;
     right: 30px;
-    display: block;
   }
   .sect5_Shape4 {
     top: 700px;
     right: 60px;
-    display: block;
   }
   .sect6_Shape2 {
     top: -600px;
     left: -94px;
     right: 10px;
     z-index: -1;
-    display: block;
   }
   .sect6_Shape1 {
     top: 50px;
     left: 150px;
-    display: block;
   }
   .sect8_Shape1 {
     top: 100px;
     left: 100px;
-    display: block;
   }
   .sect8_Shape2 {
     top: 100px;
     right: 100px;
-    display: block;
   }
   .sect8_Shape3 {
-    top: 530px;
-    display: block;
+    top: 520px;
+  }
+  .sect8_Shape3 img{
+    width: 100%;
   }
   .sect8_Shape4 {
-    top: 580px;
-    left: 700px;
-    display: block;
+    top: 530px;
+    left: 500px;
+  }
+  .sect8_Shape4 img {
+    width: 100%;
   }
   .sect8_Shape5 {
-    top: 470px;
-    right: 190px;
-    display: block;
+    top: 500px;
+    right: 10px;
+  }
+  .sect8_Shape5 img {
+    width: 100%;
   }
 }
